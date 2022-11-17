@@ -5,7 +5,7 @@ const MongoClient = mongodb.MongoClient;
 let database;
 
 async function initDb() {
-  const client = await MongoClient.connect('mongodb://localhost:27017');
+  const client = await MongoClient.connect(process.env.MONGODB_URL);
   database = client.db('second-api');
 }
 
@@ -19,5 +19,5 @@ function getDb() {
 
 module.exports = {
   initDb: initDb,
-  getDb: getDb
+  getDb: getDb,
 };

@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 
 const db = require('./data/database');
@@ -23,7 +24,7 @@ app.use(function (error, req, res, next) {
 
 db.initDb()
   .then(function () {
-    app.listen(3000);
+    app.listen(process.env.PORT);
   })
   .catch(function (error) {
     console.log('Connecting to the database failed!');
