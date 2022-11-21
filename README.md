@@ -29,4 +29,4 @@ For more details on the workings of the Front-end, API, please see the repositor
 
 
 ## Notes
-This project was built as a late-stage module/project on https://www.udemy.com/course/100-days-of-code-web-development-bootcamp/. I took this course to consolidate, update and extend my Wed Development skills.
+This project was built as a late-stage module/project on [100 Days of Code - Web Development Bootcamp](https://www.udemy.com/course/100-days-of-code-web-development-bootcamp/).
