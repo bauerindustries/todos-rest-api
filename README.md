@@ -5,7 +5,7 @@
 A simple **Node.js/MongoDB-based** REST API, managing a simple set of CRUD operations. Endpoitns accept JSON objects.
 
 ## Operations / Endpoints:
-Creating and updating to-do list items require JSON objects in BODY of request, as specified:
+Creating and updating to-do list items require JSON objects in BODY of request methods, as specified:
 
 * Read all existing to-do items: GET https://todos-rest-api-demo.onrender.com/todos
 * Create new to-do item/s: POST https://todos-rest-api-demo.onrender.com/todos {text: 'Message content'}
@@ -13,7 +13,7 @@ Creating and updating to-do list items require JSON objects in BODY of request, 
 * Delete to-do item/s: DELETE https://todos-rest-api-demo.onrender.com/todos/id
 
 ## Security
-CORS: Access-Control-Allow-Origin' from the domain of the Front-end GUI (below) only.
+CORS: Access-Control-Allow-Origin from the domain of the [Front-end GUI](https://todos-rest-api-demo.onrender.com/todos) only.
 
 ## Hosting:
 The API is running [here](https://todos-rest-api-demo.onrender.com/todos) on Render.
