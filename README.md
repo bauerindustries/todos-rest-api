@@ -2,16 +2,18 @@
  Basic demo API with get/post/patch/delete functionality
 
 ## What is it?
-A simple **Node.js/MongoDB-based** REST API, managing a simple set of CRUD operations. 
+A simple **Node.js/MongoDB-based** REST API, managing a simple set of CRUD operations. Endpoitns accept JSON objects.
 
-## Operations:
-* Fetch any existing to-do items
-* Insert new to-do item/s
-* Upodate existing to-do item/s
-* Delete to-do item/s
+## Operations / Endpoints:
+Creating and updating to-do list items require JSON objects in BODY of request, as specified:
+
+* Fetch all existing to-do items: GET https://todos-rest-api-demo.onrender.com/todos
+* Insert new to-do item/s: POST https://todos-rest-api-demo.onrender.com/todos {text: 'Message content'}
+* Update existing to-do item/s: PATCH https://todos-rest-api-demo.onrender.com/todos/id {text: 'Update message content'}
+* Delete to-do item/s: DELETE https://todos-rest-api-demo.onrender.com/todos/id
 
 ## Security
-CORS: Allow access only from the domain of the Front-end GUI, below.
+CORS: Access-Control-Allow-Origin' from the domain of the Front-end GUI (below) only.
 
 ## Hosting:
 The API is running [here](https://todos-rest-api-demo.onrender.com/todos) on Render.
