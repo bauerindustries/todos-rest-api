@@ -1,5 +1,5 @@
 # To-do list REST API
-A demonstration REST API, managing a simple set of CRUD operations for a simple to-do list.
+A demonstration REST API, managing a simple set of CRUD operations for a simple to-do list. There is also a decoupled front end for this API linked below.
 
 ## Technologies used:
 * Node.js
