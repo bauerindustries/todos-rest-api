@@ -1,11 +1,13 @@
-# todos-rest-api
- Basic demo API with get/post/patch/delete functionality
+# To-do list REST API
+A demonstration REST API, managing a simple set of CRUD operations for a simple to-do list.
 
-## What is it?
-A simple **Node.js/MongoDB-based** REST API, managing a simple set of CRUD operations. Endpoitns accept JSON objects.
+## Technologies used:
+* Node.js
+* Express.js
+* MongoDB
 
 ## Operations / Endpoints:
-Creating and updating to-do list items require JSON objects in BODY of request methods, as specified:
+Creating and updating to-do list items require JSON objects in the body of request methods, as specified, where **id** is the unique id of a mongoDB document:
 
 * Read all existing to-do items: GET https://todos-rest-api-demo.onrender.com/todos
 * Create new to-do item/s: POST https://todos-rest-api-demo.onrender.com/todos {text: 'Message content'}
@@ -24,3 +26,7 @@ The MongoDB database is hosted on MongoDB's Atlas Database.
 
 ## Front-end:
 For more details on the workings of the Front-end, API, please see the repository [Readme](https://github.com/bauerindustries/vue-frontend-for-todo-api/edit/main/README.md).
+
+
+## Notes
+This project was built as a late-stage module/project on https://www.udemy.com/course/100-days-of-code-web-development-bootcamp/. I took this course to consolidate, update and extend my Wed Development skills.
