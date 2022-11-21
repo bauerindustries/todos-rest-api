@@ -1,20 +1,17 @@
 # todos-rest-api
  Basic demo API with get/post/patch/delete functionality
 
-
-# vue-demo-frontend-todos
-
 ## What is it?
 A simple **Node.js/MongoDB-based** REST API, managing a simple set of CRUD operations. 
 
 ## Operations:
-* Read any existing to-do items
-* Create new to-do item/s
-* Edit existing to-do item/s
+* Fetch any existing to-do items
+* Insert new to-do item/s
+* Upodate existing to-do item/s
 * Delete to-do item/s
 
 ## Security
-CORS allowing only access from the domain of the Front-end GUI, below.
+CORS: Allow access only from the domain of the Front-end GUI, below.
 
 ## Hosting:
 The API is running [here](https://todos-rest-api-demo.onrender.com/todos) on Render.
