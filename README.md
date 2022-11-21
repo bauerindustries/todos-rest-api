@@ -7,8 +7,8 @@ A simple **Node.js/MongoDB-based** REST API, managing a simple set of CRUD opera
 ## Operations / Endpoints:
 Creating and updating to-do list items require JSON objects in BODY of request, as specified:
 
-* Fetch all existing to-do items: GET https://todos-rest-api-demo.onrender.com/todos
-* Insert new to-do item/s: POST https://todos-rest-api-demo.onrender.com/todos {text: 'Message content'}
+* Read all existing to-do items: GET https://todos-rest-api-demo.onrender.com/todos
+* Create new to-do item/s: POST https://todos-rest-api-demo.onrender.com/todos {text: 'Message content'}
 * Update existing to-do item/s: PATCH https://todos-rest-api-demo.onrender.com/todos/id {text: 'Update message content'}
 * Delete to-do item/s: DELETE https://todos-rest-api-demo.onrender.com/todos/id
 
