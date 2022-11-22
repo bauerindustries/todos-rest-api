@@ -20,7 +20,7 @@ CORS: Access-Control-Allow-Origin from the domain of the [Front-end GUI](https:/
 ## Hosting:
 The API is running [here](https://todos-rest-api-demo.onrender.com/todos) on Render.
 
-A decoupled Front-end GUI for this API is running [here](https://shop-demo-node-js-express-mondodb.onrender.com).
+A decoupled Front-end GUI for this API is running [here](https://cute-peony-3eb499.netlify.app).
 
 The MongoDB database is hosted on MongoDB's Atlas Database.
 
