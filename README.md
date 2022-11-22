@@ -25,8 +25,8 @@ A decoupled Front-end GUI for this API is running [here](https://shop-demo-node-
 The MongoDB database is hosted on MongoDB's Atlas Database.
 
 ## Requirements:
-* Environmental variable MONGODB_URL set to database connection string (supplied by database host)
-* Environmental variable ALLOWED_DOMAINS set to domain/s permitted to connect to this API (in this case https://cute-peony-3eb499.netlify.app)
+* Environmental variable MONGODB_URL for database connection string
+* Environmental variable ALLOWED_DOMAINS for domain/s permitted to connect to this API
 
 ## Front-end:
 For more details on the workings of the Front-end, API, please see the repository [Readme](https://github.com/bauerindustries/vue-frontend-for-todo-api/edit/main/README.md).
